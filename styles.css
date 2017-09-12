@@ -1,0 +1,48 @@
+body {
+    /* https://www.pexels.com/photo/office-working-app-computer-97077 */
+    background: url('background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p, a {
+    color:#fff;
+    font-weight:normal;
+    font-style:italic;
+    font-weight:800;
+    text-transform:uppercase;
+    font-family: 'Baloo Tammudu', cursive;
+    margin: 0;
+}
+.bigglow {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+}
+.smallglow {
+    text-shadow: 0 0 10px #fff,  0 0 40px #228DFF;
+}
+.yuge {
+    font-size:16vw;
+    line-height: 14vw;
+}
+.tremendous {
+    font-size:4vw;
+    line-height: 4vw;
+}
+.handsized {
+    font-size:2vw;
+    line-height: 3vw;
+}
+.rotato-my-potato {
+    -ms-transform: rotate(-7deg); /* IE 9 */
+    -webkit-transform: rotate(-7deg); /* Chrome, Safari, Opera */
+    transform: rotate(-7deg);
+}
+.container {
+    width: 95vw;
+    margin: 0 auto;
+}
+.iconspacing {
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
